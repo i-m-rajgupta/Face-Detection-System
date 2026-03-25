@@ -52,8 +52,8 @@ while True:
         break
 
     # Stop automatically after collecting 100 face images
-    if len(face_data) >= 100:
-        print("Collected 100 face images. Exiting...")
+    if len(face_data) >= 200:
+        print("Collected 50 face images. Exiting...")
         break
 
 # Convert face data to numpy array and save
